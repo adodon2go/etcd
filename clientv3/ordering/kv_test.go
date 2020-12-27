@@ -24,7 +24,7 @@ import (
 
 	"github.com/coreos/etcd/clientv3"
 	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/integration"
+	"github.com/adodon2go/etcd/integration"
 	"github.com/coreos/etcd/pkg/testutil"
 )
 

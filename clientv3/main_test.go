@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/coreos/etcd/auth"
-	"github.com/coreos/etcd/integration"
+	"github.com/adodon2go/etcd/integration"
 	"github.com/coreos/etcd/pkg/testutil"
 	"golang.org/x/crypto/bcrypt"
 )

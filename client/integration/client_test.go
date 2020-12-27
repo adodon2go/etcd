@@ -25,7 +25,7 @@ import (
 	"testing"
 
 	"github.com/coreos/etcd/client"
-	"github.com/coreos/etcd/integration"
+	"github.com/adodon2go/etcd/integration"
 	"github.com/coreos/etcd/pkg/testutil"
 )
 
