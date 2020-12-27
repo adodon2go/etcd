@@ -165,4 +165,4 @@ import:
   subpackages:
   - wsproxy
 - package: github.com/adodon2go/cmux
-  version: v0.1.5
+  version: v0.1.6

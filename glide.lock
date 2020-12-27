@@ -1,8 +1,8 @@
-hash: 30f4cc21aa2552ebcaeeb0b9e0d75879ea852d6cc7e12c6377207b9548c00e1d
-updated: 2020-12-27T06:17:20.93157478-08:00
+hash: fcb027879fe3fa8ecb1e235367a1a0c7808d79acf568d581c42530f102b738fe
+updated: 2020-12-27T09:52:10.677430556-08:00
 imports:
 - name: github.com/adodon2go/cmux
-  version: e61bdfc8f1c0968e91837048965668afec40426f
+  version: b0ec03f6be80693230592b6a897326e08433c332
 - name: github.com/beorn7/perks
   version: 37c8de3658fcb183f997c4e13e8337516ab753e6
   subpackages:
