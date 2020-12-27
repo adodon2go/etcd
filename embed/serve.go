@@ -36,7 +36,7 @@ import (
 	"github.com/coreos/etcd/pkg/transport"
 
 	gw "github.com/grpc-ecosystem/grpc-gateway/runtime"
-	"github.com/soheilhy/cmux"
+	"github.com/adodon2go/cmux"
 	"github.com/tmc/grpc-websocket-proxy/wsproxy"
 	"golang.org/x/net/trace"
 	"google.golang.org/grpc"

@@ -306,7 +306,7 @@
 		]
 	},
 	{
-		"project": "github.com/soheilhy/cmux",
+		"project": "github.com/adodon2go/cmux",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",

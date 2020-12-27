@@ -43,7 +43,7 @@ import (
 
 	"github.com/coreos/pkg/capnslog"
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
-	"github.com/soheilhy/cmux"
+	"github.com/adodon2go/cmux"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"
 )

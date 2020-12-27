@@ -52,7 +52,7 @@ import (
 	"github.com/coreos/etcd/rafthttp"
 
 	"github.com/coreos/pkg/capnslog"
-	"github.com/soheilhy/cmux"
+	"github.com/adodon2go/cmux"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/grpclog"
 	"google.golang.org/grpc/keepalive"

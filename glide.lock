@@ -1,6 +1,8 @@
-hash: 87224cbe021ea625798ac508c8963f49ff4ceb852d99da50db9d6b7fe95282f4
-updated: 2020-05-04T21:27:57.570766+08:00
+hash: 30f4cc21aa2552ebcaeeb0b9e0d75879ea852d6cc7e12c6377207b9548c00e1d
+updated: 2020-12-27T06:17:20.93157478-08:00
 imports:
+- name: github.com/adodon2go/cmux
+  version: e61bdfc8f1c0968e91837048965668afec40426f
 - name: github.com/beorn7/perks
   version: 37c8de3658fcb183f997c4e13e8337516ab753e6
   subpackages:
@@ -116,8 +118,6 @@ imports:
   version: 4048872b16cc0fc2c5fd9eacf0ed2c2fedaa0c8c
 - name: github.com/sirupsen/logrus
   version: f006c2ac4710855cf0f916dd6b77acf6b048dc6e
-- name: github.com/soheilhy/cmux
-  version: e09e9389d85d8492d313d73d1469c029e710623f
 - name: github.com/spf13/cobra
   version: 1c44ec8d3f1552cac48999f9306da23c4d8a288b
 - name: github.com/spf13/pflag

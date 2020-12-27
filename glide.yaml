@@ -160,9 +160,9 @@ import:
   version: 4048872b16cc0fc2c5fd9eacf0ed2c2fedaa0c8c
 - package: github.com/sirupsen/logrus
   version: v1.0.3
-- package: github.com/soheilhy/cmux
-  version: v0.1.4
 - package: github.com/tmc/grpc-websocket-proxy
   version: 89b8d40f7ca833297db804fcb3be53a76d01c238
   subpackages:
   - wsproxy
+- package: github.com/adodon2go/cmux
+  version: v0.1.5
