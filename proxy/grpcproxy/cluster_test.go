@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/clientv3"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
+	"github.com/adodon2go/etcd/clientv3"
+	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
 	"github.com/adodon2go/etcd/integration"
-	"github.com/coreos/etcd/pkg/testutil"
+	"github.com/adodon2go/etcd/pkg/testutil"
 
 	"google.golang.org/grpc"
 )

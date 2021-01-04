@@ -15,7 +15,7 @@
 package mvcc
 
 import (
-	"github.com/coreos/etcd/mvcc/mvccpb"
+	"github.com/adodon2go/etcd/mvcc/mvccpb"
 )
 
 func (tw *watchableStoreTxnWrite) End() {

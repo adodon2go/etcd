@@ -19,8 +19,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/coreos/etcd/pkg/fileutil"
-	"github.com/coreos/etcd/pkg/testutil"
+	"github.com/adodon2go/etcd/pkg/fileutil"
+	"github.com/adodon2go/etcd/pkg/testutil"
 )
 
 func testCtlV2Set(t *testing.T, cfg *etcdProcessClusterConfig, quorum bool) {

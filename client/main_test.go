@@ -24,8 +24,8 @@ import (
 	"time"
 
 	"github.com/adodon2go/etcd/integration"
-	"github.com/coreos/etcd/pkg/testutil"
-	"github.com/coreos/etcd/pkg/transport"
+	"github.com/adodon2go/etcd/pkg/testutil"
+	"github.com/adodon2go/etcd/pkg/transport"
 )
 
 var exampleEndpoints []string

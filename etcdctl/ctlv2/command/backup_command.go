@@ -23,17 +23,17 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/etcdserver/membership"
-	"github.com/coreos/etcd/pkg/fileutil"
-	"github.com/coreos/etcd/pkg/idutil"
-	"github.com/coreos/etcd/pkg/pbutil"
-	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/coreos/etcd/snap"
-	"github.com/coreos/etcd/wal"
-	"github.com/coreos/etcd/wal/walpb"
+	"github.com/adodon2go/etcd/etcdserver/etcdserverpb"
+	"github.com/adodon2go/etcd/etcdserver/membership"
+	"github.com/adodon2go/etcd/pkg/fileutil"
+	"github.com/adodon2go/etcd/pkg/idutil"
+	"github.com/adodon2go/etcd/pkg/pbutil"
+	"github.com/adodon2go/etcd/raft/raftpb"
+	"github.com/adodon2go/etcd/snap"
+	"github.com/adodon2go/etcd/wal"
+	"github.com/adodon2go/etcd/wal/walpb"
 
-	bolt "github.com/coreos/bbolt"
+	bolt "go.etcd.io/bbolt"
 	"github.com/urfave/cli"
 )
 

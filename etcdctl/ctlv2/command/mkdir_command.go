@@ -18,7 +18,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/coreos/etcd/client"
+	"github.com/adodon2go/etcd/client"
 	"github.com/urfave/cli"
 )
 

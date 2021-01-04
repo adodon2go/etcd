@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/pkg/testutil"
-	"github.com/coreos/etcd/pkg/transport"
+	"github.com/adodon2go/etcd/pkg/testutil"
+	"github.com/adodon2go/etcd/pkg/transport"
 )
 
 func TestV2Set(t *testing.T) {

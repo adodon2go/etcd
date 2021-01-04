@@ -21,11 +21,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/clientv3/concurrency"
-	etcdErr "github.com/coreos/etcd/error"
-	"github.com/coreos/etcd/mvcc/mvccpb"
-	"github.com/coreos/etcd/store"
+	"github.com/adodon2go/etcd/clientv3"
+	"github.com/adodon2go/etcd/clientv3/concurrency"
+	etcdErr "github.com/adodon2go/etcd/error"
+	"github.com/adodon2go/etcd/mvcc/mvccpb"
+	"github.com/adodon2go/etcd/store"
 )
 
 // store implements the Store interface for V2 using

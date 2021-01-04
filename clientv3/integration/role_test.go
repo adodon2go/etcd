@@ -18,9 +18,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/adodon2go/etcd/etcdserver/api/v3rpc/rpctypes"
 	"github.com/adodon2go/etcd/integration"
-	"github.com/coreos/etcd/pkg/testutil"
+	"github.com/adodon2go/etcd/pkg/testutil"
 )
 
 func TestRoleError(t *testing.T) {

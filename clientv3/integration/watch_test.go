@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/adodon2go/etcd/clientv3"
+	"github.com/adodon2go/etcd/etcdserver/api/v3rpc"
+	"github.com/adodon2go/etcd/etcdserver/api/v3rpc/rpctypes"
 	"github.com/adodon2go/etcd/integration"
-	mvccpb "github.com/coreos/etcd/mvcc/mvccpb"
-	"github.com/coreos/etcd/pkg/testutil"
+	mvccpb "github.com/adodon2go/etcd/mvcc/mvccpb"
+	"github.com/adodon2go/etcd/pkg/testutil"
 
 	"google.golang.org/grpc/metadata"
 )

@@ -20,8 +20,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/coreos/etcd/etcdctl/ctlv2/command"
-	"github.com/coreos/etcd/version"
+	"github.com/adodon2go/etcd/etcdctl/ctlv2/command"
+	"github.com/adodon2go/etcd/version"
 	"github.com/urfave/cli"
 )
 

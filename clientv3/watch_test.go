@@ -17,7 +17,7 @@ package clientv3
 import (
 	"testing"
 
-	"github.com/coreos/etcd/mvcc/mvccpb"
+	"github.com/adodon2go/etcd/mvcc/mvccpb"
 )
 
 func TestEvent(t *testing.T) {

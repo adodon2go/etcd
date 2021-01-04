@@ -23,7 +23,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/coreos/etcd/embed"
+	"github.com/adodon2go/etcd/embed"
 	"sigs.k8s.io/yaml"
 )
 

@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/version"
+	"github.com/adodon2go/etcd/pkg/types"
+	"github.com/adodon2go/etcd/version"
 	"github.com/coreos/go-semver/semver"
 )
 

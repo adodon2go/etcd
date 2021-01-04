@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	v3 "github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
-	"github.com/coreos/etcd/pkg/flags"
+	v3 "github.com/adodon2go/etcd/clientv3"
+	"github.com/adodon2go/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/adodon2go/etcd/pkg/flags"
 
 	"github.com/spf13/cobra"
 )

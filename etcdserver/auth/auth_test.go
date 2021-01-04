@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	etcderr "github.com/coreos/etcd/error"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/etcdserverpb"
-	etcdstore "github.com/coreos/etcd/store"
+	etcderr "github.com/adodon2go/etcd/error"
+	"github.com/adodon2go/etcd/etcdserver"
+	"github.com/adodon2go/etcd/etcdserver/etcdserverpb"
+	etcdstore "github.com/adodon2go/etcd/store"
 )
 
 type fakeDoer struct{}

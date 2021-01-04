@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/coreos/etcd/etcdserver/api"
-	"github.com/coreos/etcd/etcdserver/api/v2http/httptypes"
+	"github.com/adodon2go/etcd/etcdserver/api"
+	"github.com/adodon2go/etcd/etcdserver/api/v2http/httptypes"
 )
 
 func capabilityHandler(c api.Capability, fn func(http.ResponseWriter, *http.Request)) http.HandlerFunc {

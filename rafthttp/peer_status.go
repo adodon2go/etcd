@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/pkg/types"
+	"github.com/adodon2go/etcd/pkg/types"
 )
 
 type failureType struct {

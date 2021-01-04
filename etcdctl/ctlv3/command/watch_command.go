@@ -23,7 +23,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/coreos/etcd/clientv3"
+	"github.com/adodon2go/etcd/clientv3"
 
 	"github.com/spf13/cobra"
 )

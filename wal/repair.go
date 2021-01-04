@@ -20,8 +20,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/coreos/etcd/pkg/fileutil"
-	"github.com/coreos/etcd/wal/walpb"
+	"github.com/adodon2go/etcd/pkg/fileutil"
+	"github.com/adodon2go/etcd/wal/walpb"
 )
 
 // Repair tries to repair ErrUnexpectedEOF in the

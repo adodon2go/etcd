@@ -27,7 +27,7 @@
 		]
 	},
 	{
-		"project": "github.com/coreos/bbolt",
+		"project": "go.etcd.io/bbolt",
 		"licenses": [
 			{
 				"type": "MIT License",
@@ -36,7 +36,7 @@
 		]
 	},
 	{
-		"project": "github.com/coreos/etcd",
+		"project": "github.com/adodon2go/etcd",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",

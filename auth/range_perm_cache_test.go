@@ -17,8 +17,8 @@ package auth
 import (
 	"testing"
 
-	"github.com/coreos/etcd/auth/authpb"
-	"github.com/coreos/etcd/pkg/adt"
+	"github.com/adodon2go/etcd/auth/authpb"
+	"github.com/adodon2go/etcd/pkg/adt"
 )
 
 func TestRangePermission(t *testing.T) {

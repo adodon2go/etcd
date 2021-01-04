@@ -20,8 +20,8 @@ import (
 	"testing"
 
 	"github.com/adodon2go/etcd/integration"
-	"github.com/coreos/etcd/pkg/testutil"
-	"github.com/coreos/etcd/pkg/types"
+	"github.com/adodon2go/etcd/pkg/testutil"
+	"github.com/adodon2go/etcd/pkg/types"
 )
 
 func TestMemberList(t *testing.T) {

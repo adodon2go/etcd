@@ -32,24 +32,24 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/client"
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/embed"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/api/etcdhttp"
-	"github.com/coreos/etcd/etcdserver/api/v2http"
-	"github.com/coreos/etcd/etcdserver/api/v3client"
-	"github.com/coreos/etcd/etcdserver/api/v3election"
-	epb "github.com/coreos/etcd/etcdserver/api/v3election/v3electionpb"
-	"github.com/coreos/etcd/etcdserver/api/v3lock"
-	lockpb "github.com/coreos/etcd/etcdserver/api/v3lock/v3lockpb"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/testutil"
-	"github.com/coreos/etcd/pkg/tlsutil"
-	"github.com/coreos/etcd/pkg/transport"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/rafthttp"
+	"github.com/adodon2go/etcd/client"
+	"github.com/adodon2go/etcd/clientv3"
+	"github.com/adodon2go/etcd/embed"
+	"github.com/adodon2go/etcd/etcdserver"
+	"github.com/adodon2go/etcd/etcdserver/api/etcdhttp"
+	"github.com/adodon2go/etcd/etcdserver/api/v2http"
+	"github.com/adodon2go/etcd/etcdserver/api/v3client"
+	"github.com/adodon2go/etcd/etcdserver/api/v3election"
+	epb "github.com/adodon2go/etcd/etcdserver/api/v3election/v3electionpb"
+	"github.com/adodon2go/etcd/etcdserver/api/v3lock"
+	lockpb "github.com/adodon2go/etcd/etcdserver/api/v3lock/v3lockpb"
+	"github.com/adodon2go/etcd/etcdserver/api/v3rpc"
+	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
+	"github.com/adodon2go/etcd/pkg/testutil"
+	"github.com/adodon2go/etcd/pkg/tlsutil"
+	"github.com/adodon2go/etcd/pkg/transport"
+	"github.com/adodon2go/etcd/pkg/types"
+	"github.com/adodon2go/etcd/rafthttp"
 
 	"github.com/coreos/pkg/capnslog"
 	"github.com/adodon2go/cmux"
@@ -91,7 +91,7 @@ var (
 		ClientCertAuth: true,
 	}
 
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "integration")
+	plog = capnslog.NewPackageLogger("github.com/adodon2go/etcd", "integration")
 )
 
 type ClusterConfig struct {

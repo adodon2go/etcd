@@ -25,10 +25,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/coreos/etcd/embed"
-	"github.com/coreos/etcd/pkg/flags"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/version"
+	"github.com/adodon2go/etcd/embed"
+	"github.com/adodon2go/etcd/pkg/flags"
+	"github.com/adodon2go/etcd/pkg/types"
+	"github.com/adodon2go/etcd/version"
 
 	"sigs.k8s.io/yaml"
 )

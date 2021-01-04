@@ -19,7 +19,7 @@ import (
 
 	"github.com/olekukonko/tablewriter"
 
-	v3 "github.com/coreos/etcd/clientv3"
+	v3 "github.com/adodon2go/etcd/clientv3"
 )
 
 type tablePrinter struct{ printer }
