@@ -1,4 +1,4 @@
-package: github.com/adodon2go/etcd
+package: github.com/coreos/etcd
 ignore:
 - google.golang.org/appengine
 import:
@@ -165,4 +165,4 @@ import:
   subpackages:
   - wsproxy
 - package: github.com/adodon2go/cmux
-  version: v0.1.6
+  version: v0.1.7
