@@ -17,7 +17,7 @@ package api
 import (
 	"sync"
 
-	"github.com/adodon2go/etcd/version"
+	"go.etcd.io/etcd/v3/version"
 	"github.com/coreos/go-semver/semver"
 	"github.com/coreos/pkg/capnslog"
 )
@@ -30,7 +30,7 @@ const (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/adodon2go/etcd", "etcdserver/api")
+	plog = capnslog.NewPackageLogger("go.etcd.io/etcd/v3", "etcdserver/api")
 
 	// capabilityMaps is a static map of version to capability map.
 	capabilityMaps = map[string]map[Capability]bool{

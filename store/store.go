@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	etcdErr "github.com/adodon2go/etcd/error"
-	"github.com/adodon2go/etcd/pkg/types"
+	etcdErr "go.etcd.io/etcd/v3/error"
+	"go.etcd.io/etcd/v3/pkg/types"
 	"github.com/jonboulle/clockwork"
 )
 

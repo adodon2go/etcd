@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
-	"github.com/adodon2go/etcd/pkg/testutil"
+	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	"go.etcd.io/etcd/v3/pkg/testutil"
 
 	"github.com/jonboulle/clockwork"
 )

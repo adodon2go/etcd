@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
-	"github.com/adodon2go/etcd/pkg/testutil"
+	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	"go.etcd.io/etcd/v3/pkg/testutil"
 )
 
 // TestMetricDbSizeBoot checks that the db size metric is set on boot.

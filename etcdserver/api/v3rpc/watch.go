@@ -20,12 +20,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/adodon2go/etcd/auth"
-	"github.com/adodon2go/etcd/etcdserver"
-	"github.com/adodon2go/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
-	"github.com/adodon2go/etcd/mvcc"
-	"github.com/adodon2go/etcd/mvcc/mvccpb"
+	"go.etcd.io/etcd/v3/auth"
+	"go.etcd.io/etcd/v3/etcdserver"
+	"go.etcd.io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
+	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	"go.etcd.io/etcd/v3/mvcc"
+	"go.etcd.io/etcd/v3/mvcc/mvccpb"
 )
 
 type watchServer struct {

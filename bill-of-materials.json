@@ -36,7 +36,7 @@
 		]
 	},
 	{
-		"project": "github.com/adodon2go/etcd",
+		"project": "go.etcd.io/etcd/v3",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",
@@ -306,7 +306,7 @@
 		]
 	},
 	{
-		"project": "github.com/adodon2go/cmux",
+		"project": "github.com/soheilhy/cmux",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",

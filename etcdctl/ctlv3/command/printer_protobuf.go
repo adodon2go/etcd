@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"os"
 
-	v3 "github.com/adodon2go/etcd/clientv3"
-	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
-	mvccpb "github.com/adodon2go/etcd/mvcc/mvccpb"
+	v3 "go.etcd.io/etcd/v3/clientv3"
+	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	mvccpb "go.etcd.io/etcd/v3/mvcc/mvccpb"
 )
 
 type pbPrinter struct{ printer }

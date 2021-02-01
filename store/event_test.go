@@ -17,7 +17,7 @@ package store
 import (
 	"testing"
 
-	etcdErr "github.com/adodon2go/etcd/error"
+	etcdErr "go.etcd.io/etcd/v3/error"
 )
 
 // TestEventQueue tests a queue with capacity = 100

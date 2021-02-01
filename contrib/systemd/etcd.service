@@ -1,6 +1,6 @@
 [Unit]
 Description=etcd key-value store
-Documentation=https://github.com/adodon2go/etcd
+Documentation=https://go.etcd.io/etcd/v3
 After=network.target
 
 [Service]

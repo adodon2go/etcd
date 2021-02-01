@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/adodon2go/etcd/pkg/transport"
+	"go.etcd.io/etcd/v3/pkg/transport"
 
 	"go.uber.org/zap"
 )

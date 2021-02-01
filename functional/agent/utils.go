@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/adodon2go/etcd/pkg/fileutil"
+	"go.etcd.io/etcd/v3/pkg/fileutil"
 )
 
 // TODO: support separate WAL directory

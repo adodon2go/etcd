@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
-	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
-	"github.com/adodon2go/etcd/mvcc"
+	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	"go.etcd.io/etcd/v3/mvcc"
 
 	"github.com/jonboulle/clockwork"
 )

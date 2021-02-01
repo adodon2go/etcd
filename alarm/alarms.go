@@ -18,15 +18,15 @@ package alarm
 import (
 	"sync"
 
-	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
-	"github.com/adodon2go/etcd/mvcc/backend"
-	"github.com/adodon2go/etcd/pkg/types"
+	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	"go.etcd.io/etcd/v3/mvcc/backend"
+	"go.etcd.io/etcd/v3/pkg/types"
 	"github.com/coreos/pkg/capnslog"
 )
 
 var (
 	alarmBucketName = []byte("alarm")
-	plog            = capnslog.NewPackageLogger("github.com/adodon2go/etcd", "alarm")
+	plog            = capnslog.NewPackageLogger("go.etcd.io/etcd/v3", "alarm")
 )
 
 type BackendGetter interface {

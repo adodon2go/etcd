@@ -26,14 +26,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/adodon2go/etcd/compactor"
-	"github.com/adodon2go/etcd/etcdserver"
-	"github.com/adodon2go/etcd/pkg/cors"
-	"github.com/adodon2go/etcd/pkg/netutil"
-	"github.com/adodon2go/etcd/pkg/srv"
-	"github.com/adodon2go/etcd/pkg/tlsutil"
-	"github.com/adodon2go/etcd/pkg/transport"
-	"github.com/adodon2go/etcd/pkg/types"
+	"go.etcd.io/etcd/v3/compactor"
+	"go.etcd.io/etcd/v3/etcdserver"
+	"go.etcd.io/etcd/v3/pkg/cors"
+	"go.etcd.io/etcd/v3/pkg/netutil"
+	"go.etcd.io/etcd/v3/pkg/srv"
+	"go.etcd.io/etcd/v3/pkg/tlsutil"
+	"go.etcd.io/etcd/v3/pkg/transport"
+	"go.etcd.io/etcd/v3/pkg/types"
 
 	"github.com/coreos/pkg/capnslog"
 	"google.golang.org/grpc"
@@ -141,7 +141,7 @@ type Config struct {
 	//
 	// If single-node, it advances ticks regardless.
 	//
-	// See https://github.com/adodon2go/etcd/issues/9333 for more detail.
+	// See https://go.etcd.io/etcd/v3/issues/9333 for more detail.
 	InitialElectionTickAdvance bool `json:"initial-election-tick-advance"`
 
 	QuotaBackendBytes int64 `json:"quota-backend-bytes"`
@@ -323,7 +323,7 @@ func (cfg *Config) SetupLogging() {
 		grpclog.SetLoggerV2(grpclog.NewLoggerV2(ioutil.Discard, os.Stderr, os.Stderr))
 	}
 	if cfg.LogPkgLevels != "" {
-		repoLog := capnslog.MustRepoLogger("github.com/adodon2go/etcd")
+		repoLog := capnslog.MustRepoLogger("go.etcd.io/etcd/v3")
 		settings, err := repoLog.ParseLogLevelConfig(cfg.LogPkgLevels)
 		if err != nil {
 			plog.Warningf("couldn't parse log level string: %s, continuing with default levels", err.Error())

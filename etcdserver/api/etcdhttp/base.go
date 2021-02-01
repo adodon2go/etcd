@@ -21,17 +21,17 @@ import (
 	"net/http"
 	"strings"
 
-	etcdErr "github.com/adodon2go/etcd/error"
-	"github.com/adodon2go/etcd/etcdserver"
-	"github.com/adodon2go/etcd/etcdserver/api"
-	"github.com/adodon2go/etcd/etcdserver/api/v2http/httptypes"
-	"github.com/adodon2go/etcd/pkg/logutil"
-	"github.com/adodon2go/etcd/version"
+	etcdErr "go.etcd.io/etcd/v3/error"
+	"go.etcd.io/etcd/v3/etcdserver"
+	"go.etcd.io/etcd/v3/etcdserver/api"
+	"go.etcd.io/etcd/v3/etcdserver/api/v2http/httptypes"
+	"go.etcd.io/etcd/v3/pkg/logutil"
+	"go.etcd.io/etcd/v3/version"
 	"github.com/coreos/pkg/capnslog"
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/adodon2go/etcd", "etcdserver/api/etcdhttp")
+	plog = capnslog.NewPackageLogger("go.etcd.io/etcd/v3", "etcdserver/api/etcdhttp")
 	mlog = logutil.NewMergeLogger(plog)
 )
 

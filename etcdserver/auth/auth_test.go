@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	etcderr "github.com/adodon2go/etcd/error"
-	"github.com/adodon2go/etcd/etcdserver"
-	"github.com/adodon2go/etcd/etcdserver/etcdserverpb"
-	etcdstore "github.com/adodon2go/etcd/store"
+	etcderr "go.etcd.io/etcd/v3/error"
+	"go.etcd.io/etcd/v3/etcdserver"
+	"go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	etcdstore "go.etcd.io/etcd/v3/store"
 )
 
 type fakeDoer struct{}

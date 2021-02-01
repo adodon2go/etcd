@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/adodon2go/etcd/raft/raftpb"
-	"github.com/adodon2go/etcd/wal/walpb"
+	"go.etcd.io/etcd/v3/raft/raftpb"
+	"go.etcd.io/etcd/v3/wal/walpb"
 )
 
 type corruptFunc func(string, int64) error

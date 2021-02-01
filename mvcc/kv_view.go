@@ -15,7 +15,7 @@
 package mvcc
 
 import (
-	"github.com/adodon2go/etcd/lease"
+	"go.etcd.io/etcd/v3/lease"
 )
 
 type readView struct{ kv KV }

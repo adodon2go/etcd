@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/adodon2go/etcd/pkg/testutil"
-	"github.com/adodon2go/etcd/raft/raftpb"
+	"go.etcd.io/etcd/v3/pkg/testutil"
+	"go.etcd.io/etcd/v3/raft/raftpb"
 )
 
 // TestNodeStep ensures that node.Step sends msgProp to propc chan

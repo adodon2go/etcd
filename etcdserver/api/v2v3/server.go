@@ -19,12 +19,12 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/adodon2go/etcd/clientv3"
-	"github.com/adodon2go/etcd/etcdserver"
-	"github.com/adodon2go/etcd/etcdserver/api"
-	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
-	"github.com/adodon2go/etcd/etcdserver/membership"
-	"github.com/adodon2go/etcd/pkg/types"
+	"go.etcd.io/etcd/v3/clientv3"
+	"go.etcd.io/etcd/v3/etcdserver"
+	"go.etcd.io/etcd/v3/etcdserver/api"
+	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	"go.etcd.io/etcd/v3/etcdserver/membership"
+	"go.etcd.io/etcd/v3/pkg/types"
 
 	"github.com/coreos/go-semver/semver"
 )

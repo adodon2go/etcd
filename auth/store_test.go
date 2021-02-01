@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/adodon2go/etcd/auth/authpb"
-	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
-	"github.com/adodon2go/etcd/mvcc/backend"
+	"go.etcd.io/etcd/v3/auth/authpb"
+	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	"go.etcd.io/etcd/v3/mvcc/backend"
 
 	"golang.org/x/crypto/bcrypt"
 	"google.golang.org/grpc/metadata"

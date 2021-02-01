@@ -21,7 +21,7 @@ Launch an embedded etcd server using the configuration defaults:
 		"log"
 		"time"
 
-		"github.com/adodon2go/etcd/embed"
+		"go.etcd.io/etcd/v3/embed"
 	)
 
 	func main() {

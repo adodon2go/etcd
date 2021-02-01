@@ -20,10 +20,10 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/adodon2go/etcd/clientv3"
-	"github.com/adodon2go/etcd/etcdserver/api/v2v3"
-	"github.com/adodon2go/etcd/integration"
-	"github.com/adodon2go/etcd/store"
+	"go.etcd.io/etcd/v3/clientv3"
+	"go.etcd.io/etcd/v3/etcdserver/api/v2v3"
+	"go.etcd.io/etcd/v3/integration"
+	"go.etcd.io/etcd/v3/store"
 
 	"github.com/coreos/pkg/capnslog"
 	"google.golang.org/grpc/grpclog"

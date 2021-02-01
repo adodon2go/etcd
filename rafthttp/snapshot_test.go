@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/adodon2go/etcd/pkg/types"
-	"github.com/adodon2go/etcd/raft/raftpb"
-	"github.com/adodon2go/etcd/snap"
+	"go.etcd.io/etcd/v3/pkg/types"
+	"go.etcd.io/etcd/v3/raft/raftpb"
+	"go.etcd.io/etcd/v3/snap"
 )
 
 type strReaderCloser struct{ *strings.Reader }

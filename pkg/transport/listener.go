@@ -31,8 +31,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/adodon2go/etcd/pkg/fileutil"
-	"github.com/adodon2go/etcd/pkg/tlsutil"
+	"go.etcd.io/etcd/v3/pkg/fileutil"
+	"go.etcd.io/etcd/v3/pkg/tlsutil"
 )
 
 func NewListener(addr, scheme string, tlsinfo *TLSInfo) (l net.Listener, err error) {

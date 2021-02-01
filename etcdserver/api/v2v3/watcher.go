@@ -18,9 +18,9 @@ import (
 	"context"
 	"strings"
 
-	"github.com/adodon2go/etcd/clientv3"
-	etcdErr "github.com/adodon2go/etcd/error"
-	"github.com/adodon2go/etcd/store"
+	"go.etcd.io/etcd/v3/clientv3"
+	etcdErr "go.etcd.io/etcd/v3/error"
+	"go.etcd.io/etcd/v3/store"
 )
 
 func (s *v2v3Store) Watch(prefix string, recursive, stream bool, sinceIndex uint64) (store.Watcher, error) {

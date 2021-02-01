@@ -15,7 +15,7 @@
 package types
 
 import (
-	"github.com/adodon2go/etcd/pkg/testutil"
+	"go.etcd.io/etcd/v3/pkg/testutil"
 	"reflect"
 	"testing"
 )

@@ -24,15 +24,15 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/adodon2go/etcd/etcdserver/stats"
-	"github.com/adodon2go/etcd/pkg/fileutil"
-	"github.com/adodon2go/etcd/pkg/types"
-	"github.com/adodon2go/etcd/raft"
-	"github.com/adodon2go/etcd/raft/raftpb"
-	"github.com/adodon2go/etcd/rafthttp"
-	"github.com/adodon2go/etcd/snap"
-	"github.com/adodon2go/etcd/wal"
-	"github.com/adodon2go/etcd/wal/walpb"
+	"go.etcd.io/etcd/v3/etcdserver/stats"
+	"go.etcd.io/etcd/v3/pkg/fileutil"
+	"go.etcd.io/etcd/v3/pkg/types"
+	"go.etcd.io/etcd/v3/raft"
+	"go.etcd.io/etcd/v3/raft/raftpb"
+	"go.etcd.io/etcd/v3/rafthttp"
+	"go.etcd.io/etcd/v3/snap"
+	"go.etcd.io/etcd/v3/wal"
+	"go.etcd.io/etcd/v3/wal/walpb"
 )
 
 // A key-value stream backed by raft

@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/adodon2go/etcd/clientv3"
-	"github.com/adodon2go/etcd/etcdserver/api/v3rpc/rpctypes"
+	"go.etcd.io/etcd/v3/clientv3"
+	"go.etcd.io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
 )
 
 func ExampleKV_put() {

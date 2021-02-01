@@ -19,7 +19,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/adodon2go/etcd/mvcc/mvccpb"
+	"go.etcd.io/etcd/v3/mvcc/mvccpb"
 )
 
 var (

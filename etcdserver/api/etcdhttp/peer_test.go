@@ -23,10 +23,10 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/adodon2go/etcd/etcdserver/membership"
-	"github.com/adodon2go/etcd/pkg/testutil"
-	"github.com/adodon2go/etcd/pkg/types"
-	"github.com/adodon2go/etcd/rafthttp"
+	"go.etcd.io/etcd/v3/etcdserver/membership"
+	"go.etcd.io/etcd/v3/pkg/testutil"
+	"go.etcd.io/etcd/v3/pkg/types"
+	"go.etcd.io/etcd/v3/rafthttp"
 	"github.com/coreos/go-semver/semver"
 )
 

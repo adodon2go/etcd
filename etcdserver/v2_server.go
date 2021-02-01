@@ -18,8 +18,8 @@ import (
 	"context"
 	"time"
 
-	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
-	"github.com/adodon2go/etcd/store"
+	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	"go.etcd.io/etcd/v3/store"
 )
 
 type RequestV2 pb.Request

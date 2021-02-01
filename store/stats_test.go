@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/adodon2go/etcd/pkg/testutil"
+	"go.etcd.io/etcd/v3/pkg/testutil"
 )
 
 // Ensure that a successful Get is recorded in the stats.

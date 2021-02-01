@@ -18,16 +18,16 @@ package v3rpc
 import (
 	"context"
 
-	"github.com/adodon2go/etcd/etcdserver"
-	"github.com/adodon2go/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
-	"github.com/adodon2go/etcd/pkg/adt"
+	"go.etcd.io/etcd/v3/etcdserver"
+	"go.etcd.io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
+	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	"go.etcd.io/etcd/v3/pkg/adt"
 
 	"github.com/coreos/pkg/capnslog"
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/adodon2go/etcd", "etcdserver/api/v3rpc")
+	plog = capnslog.NewPackageLogger("go.etcd.io/etcd/v3", "etcdserver/api/v3rpc")
 )
 
 type kvServer struct {

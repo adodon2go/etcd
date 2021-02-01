@@ -17,8 +17,8 @@ package mockstore
 import (
 	"time"
 
-	"github.com/adodon2go/etcd/pkg/testutil"
-	"github.com/adodon2go/etcd/store"
+	"go.etcd.io/etcd/v3/pkg/testutil"
+	"go.etcd.io/etcd/v3/store"
 )
 
 // StoreRecorder provides a Store interface with a testutil.Recorder

@@ -22,12 +22,12 @@ import (
 	"sort"
 	"testing"
 
-	etcdErr "github.com/adodon2go/etcd/error"
-	"github.com/adodon2go/etcd/etcdserver"
-	"github.com/adodon2go/etcd/etcdserver/etcdserverpb"
-	"github.com/adodon2go/etcd/etcdserver/membership"
-	"github.com/adodon2go/etcd/pkg/types"
-	"github.com/adodon2go/etcd/raft/raftpb"
+	etcdErr "go.etcd.io/etcd/v3/error"
+	"go.etcd.io/etcd/v3/etcdserver"
+	"go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	"go.etcd.io/etcd/v3/etcdserver/membership"
+	"go.etcd.io/etcd/v3/pkg/types"
+	"go.etcd.io/etcd/v3/raft/raftpb"
 
 	"github.com/coreos/go-semver/semver"
 )

@@ -18,7 +18,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/adodon2go/etcd/pkg/fileutil"
+	"go.etcd.io/etcd/v3/pkg/fileutil"
 )
 
 // WriteAndSyncFile behaves just like ioutil.WriteFile in the standard library,

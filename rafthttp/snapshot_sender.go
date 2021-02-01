@@ -22,11 +22,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/adodon2go/etcd/pkg/httputil"
-	pioutil "github.com/adodon2go/etcd/pkg/ioutil"
-	"github.com/adodon2go/etcd/pkg/types"
-	"github.com/adodon2go/etcd/raft"
-	"github.com/adodon2go/etcd/snap"
+	"go.etcd.io/etcd/v3/pkg/httputil"
+	pioutil "go.etcd.io/etcd/v3/pkg/ioutil"
+	"go.etcd.io/etcd/v3/pkg/types"
+	"go.etcd.io/etcd/v3/raft"
+	"go.etcd.io/etcd/v3/snap"
 	"github.com/dustin/go-humanize"
 )
 

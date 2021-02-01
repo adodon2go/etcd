@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/adodon2go/etcd/pkg/netutil"
-	"github.com/adodon2go/etcd/pkg/transport"
-	"github.com/adodon2go/etcd/pkg/types"
+	"go.etcd.io/etcd/v3/pkg/netutil"
+	"go.etcd.io/etcd/v3/pkg/transport"
+	"go.etcd.io/etcd/v3/pkg/types"
 )
 
 // ServerConfig holds the configuration of etcd as taken from the command line or discovery.
@@ -76,7 +76,7 @@ type ServerConfig struct {
 	//
 	// If single-node, it advances ticks regardless.
 	//
-	// See https://github.com/adodon2go/etcd/issues/9333 for more detail.
+	// See https://go.etcd.io/etcd/v3/issues/9333 for more detail.
 	InitialElectionTickAdvance bool
 
 	BootstrapTimeout time.Duration

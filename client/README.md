@@ -2,7 +2,7 @@
 
 etcd/client is the Go client library for etcd.
 
-[![GoDoc](https://godoc.org/github.com/adodon2go/etcd/client?status.png)](https://godoc.org/github.com/adodon2go/etcd/client)
+[![GoDoc](https://godoc.org/go.etcd.io/etcd/v3/client?status.png)](https://godoc.org/go.etcd.io/etcd/v3/client)
 
 etcd uses `cmd/vendor` directory to store external dependencies, which are
 to be compiled into etcd release binaries. `client` can be imported without
@@ -14,7 +14,7 @@ For more detail, please read [Go vendor design](https://golang.org/s/go15vendor)
 ## Install
 
 ```bash
-go get github.com/adodon2go/etcd/client
+go get go.etcd.io/etcd/v3/client
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ import (
 	"time"
 	"context"
 
-	"github.com/adodon2go/etcd/client"
+	"go.etcd.io/etcd/v3/client"
 )
 
 func main() {

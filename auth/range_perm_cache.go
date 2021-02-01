@@ -15,9 +15,9 @@
 package auth
 
 import (
-	"github.com/adodon2go/etcd/auth/authpb"
-	"github.com/adodon2go/etcd/mvcc/backend"
-	"github.com/adodon2go/etcd/pkg/adt"
+	"go.etcd.io/etcd/v3/auth/authpb"
+	"go.etcd.io/etcd/v3/mvcc/backend"
+	"go.etcd.io/etcd/v3/pkg/adt"
 )
 
 func getMergedPerms(tx backend.BatchTx, userName string) *unifiedRangePermissions {

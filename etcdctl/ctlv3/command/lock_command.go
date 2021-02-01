@@ -23,8 +23,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/adodon2go/etcd/clientv3"
-	"github.com/adodon2go/etcd/clientv3/concurrency"
+	"go.etcd.io/etcd/v3/clientv3"
+	"go.etcd.io/etcd/v3/clientv3/concurrency"
 
 	"github.com/spf13/cobra"
 )

@@ -20,10 +20,10 @@ import (
 	"strings"
 	"time"
 
-	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
-	"github.com/adodon2go/etcd/etcdserver/membership"
-	"github.com/adodon2go/etcd/pkg/types"
-	"github.com/adodon2go/etcd/rafthttp"
+	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	"go.etcd.io/etcd/v3/etcdserver/membership"
+	"go.etcd.io/etcd/v3/pkg/types"
+	"go.etcd.io/etcd/v3/rafthttp"
 	"github.com/golang/protobuf/proto"
 )
 

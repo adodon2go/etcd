@@ -17,7 +17,7 @@ package etcdmain
 import (
 	"strconv"
 
-	"github.com/adodon2go/etcd/embed"
+	"go.etcd.io/etcd/v3/embed"
 )
 
 var (

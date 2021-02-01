@@ -20,20 +20,20 @@ import (
 	"sync"
 	"time"
 
-	"github.com/adodon2go/etcd/etcdserver/stats"
-	"github.com/adodon2go/etcd/pkg/logutil"
-	"github.com/adodon2go/etcd/pkg/transport"
-	"github.com/adodon2go/etcd/pkg/types"
-	"github.com/adodon2go/etcd/raft"
-	"github.com/adodon2go/etcd/raft/raftpb"
-	"github.com/adodon2go/etcd/snap"
+	"go.etcd.io/etcd/v3/etcdserver/stats"
+	"go.etcd.io/etcd/v3/pkg/logutil"
+	"go.etcd.io/etcd/v3/pkg/transport"
+	"go.etcd.io/etcd/v3/pkg/types"
+	"go.etcd.io/etcd/v3/raft"
+	"go.etcd.io/etcd/v3/raft/raftpb"
+	"go.etcd.io/etcd/v3/snap"
 
 	"github.com/coreos/pkg/capnslog"
 	"github.com/xiang90/probing"
 	"golang.org/x/time/rate"
 )
 
-var plog = logutil.NewMergeLogger(capnslog.NewPackageLogger("github.com/adodon2go/etcd", "rafthttp"))
+var plog = logutil.NewMergeLogger(capnslog.NewPackageLogger("go.etcd.io/etcd/v3", "rafthttp"))
 
 type Raft interface {
 	Process(ctx context.Context, m raftpb.Message) error

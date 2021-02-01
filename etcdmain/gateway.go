@@ -21,7 +21,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/adodon2go/etcd/proxy/tcpproxy"
+	"go.etcd.io/etcd/v3/proxy/tcpproxy"
 
 	"github.com/spf13/cobra"
 )

@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/adodon2go/etcd/lease"
-	"github.com/adodon2go/etcd/mvcc/backend"
-	"github.com/adodon2go/etcd/mvcc/mvccpb"
-	"github.com/adodon2go/etcd/pkg/testutil"
+	"go.etcd.io/etcd/v3/lease"
+	"go.etcd.io/etcd/v3/mvcc/backend"
+	"go.etcd.io/etcd/v3/mvcc/mvccpb"
+	"go.etcd.io/etcd/v3/pkg/testutil"
 
 	"github.com/prometheus/client_golang/prometheus"
 	dto "github.com/prometheus/client_model/go"

@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/adodon2go/etcd/mvcc/backend"
+	"go.etcd.io/etcd/v3/mvcc/backend"
 )
 
 const (

@@ -20,8 +20,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/adodon2go/etcd/clientv3"
-	"github.com/adodon2go/etcd/pkg/transport"
+	"go.etcd.io/etcd/v3/clientv3"
+	"go.etcd.io/etcd/v3/pkg/transport"
 
 	"google.golang.org/grpc/grpclog"
 )

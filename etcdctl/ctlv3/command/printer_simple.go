@@ -19,9 +19,9 @@ import (
 	"os"
 	"strings"
 
-	v3 "github.com/adodon2go/etcd/clientv3"
-	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
-	"github.com/adodon2go/etcd/pkg/types"
+	v3 "go.etcd.io/etcd/v3/clientv3"
+	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	"go.etcd.io/etcd/v3/pkg/types"
 )
 
 type simplePrinter struct {

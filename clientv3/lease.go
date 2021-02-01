@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/adodon2go/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
+	"go.etcd.io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
+	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
@@ -132,7 +132,7 @@ type Lease interface {
 	// is returned. Otherwise, it retries.
 	//
 	// TODO(v4.0): post errors to last keep alive message before closing
-	// (see https://github.com/adodon2go/etcd/pull/7866)
+	// (see https://go.etcd.io/etcd/v3/pull/7866)
 	KeepAlive(ctx context.Context, id LeaseID) (<-chan *LeaseKeepAliveResponse, error)
 
 	// KeepAliveOnce renews the lease once. The response corresponds to the

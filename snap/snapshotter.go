@@ -27,12 +27,12 @@ import (
 	"strings"
 	"time"
 
-	pioutil "github.com/adodon2go/etcd/pkg/ioutil"
-	"github.com/adodon2go/etcd/pkg/pbutil"
-	"github.com/adodon2go/etcd/raft"
-	"github.com/adodon2go/etcd/raft/raftpb"
-	"github.com/adodon2go/etcd/snap/snappb"
-	"github.com/adodon2go/etcd/wal/walpb"
+	pioutil "go.etcd.io/etcd/v3/pkg/ioutil"
+	"go.etcd.io/etcd/v3/pkg/pbutil"
+	"go.etcd.io/etcd/v3/raft"
+	"go.etcd.io/etcd/v3/raft/raftpb"
+	"go.etcd.io/etcd/v3/snap/snappb"
+	"go.etcd.io/etcd/v3/wal/walpb"
 	"github.com/coreos/pkg/capnslog"
 )
 
@@ -41,7 +41,7 @@ const (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/adodon2go/etcd", "snap")
+	plog = capnslog.NewPackageLogger("go.etcd.io/etcd/v3", "snap")
 
 	ErrNoSnapshot    = errors.New("snap: no available snapshot")
 	ErrEmptySnapshot = errors.New("snap: empty snapshot")

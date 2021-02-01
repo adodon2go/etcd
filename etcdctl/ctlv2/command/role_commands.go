@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/adodon2go/etcd/client"
-	"github.com/adodon2go/etcd/pkg/pathutil"
+	"go.etcd.io/etcd/v3/client"
+	"go.etcd.io/etcd/v3/pkg/pathutil"
 	"github.com/urfave/cli"
 )
 

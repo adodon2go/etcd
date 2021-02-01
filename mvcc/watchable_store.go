@@ -18,10 +18,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/adodon2go/etcd/auth"
-	"github.com/adodon2go/etcd/lease"
-	"github.com/adodon2go/etcd/mvcc/backend"
-	"github.com/adodon2go/etcd/mvcc/mvccpb"
+	"go.etcd.io/etcd/v3/auth"
+	"go.etcd.io/etcd/v3/lease"
+	"go.etcd.io/etcd/v3/mvcc/backend"
+	"go.etcd.io/etcd/v3/mvcc/mvccpb"
 )
 
 // non-const so modifiable by tests

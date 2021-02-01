@@ -20,7 +20,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/adodon2go/etcd/contrib/recipes"
+	"go.etcd.io/etcd/v3/contrib/recipes"
 )
 
 const (

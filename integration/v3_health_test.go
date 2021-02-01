@@ -18,7 +18,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/adodon2go/etcd/pkg/testutil"
+	"go.etcd.io/etcd/v3/pkg/testutil"
 
 	healthpb "google.golang.org/grpc/health/grpc_health_v1"
 )

@@ -22,10 +22,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/adodon2go/etcd/clientv3"
-	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
-	"github.com/adodon2go/etcd/pkg/transport"
-	"github.com/adodon2go/etcd/snapshot"
+	"go.etcd.io/etcd/v3/clientv3"
+	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	"go.etcd.io/etcd/v3/pkg/transport"
+	"go.etcd.io/etcd/v3/snapshot"
 
 	"github.com/dustin/go-humanize"
 	"go.uber.org/zap"

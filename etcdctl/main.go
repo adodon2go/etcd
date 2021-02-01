@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/adodon2go/etcd/etcdctl/ctlv2"
-	"github.com/adodon2go/etcd/etcdctl/ctlv3"
+	"go.etcd.io/etcd/v3/etcdctl/ctlv2"
+	"go.etcd.io/etcd/v3/etcdctl/ctlv3"
 )
 
 const (

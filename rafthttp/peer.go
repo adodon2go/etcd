@@ -19,11 +19,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/adodon2go/etcd/etcdserver/stats"
-	"github.com/adodon2go/etcd/pkg/types"
-	"github.com/adodon2go/etcd/raft"
-	"github.com/adodon2go/etcd/raft/raftpb"
-	"github.com/adodon2go/etcd/snap"
+	"go.etcd.io/etcd/v3/etcdserver/stats"
+	"go.etcd.io/etcd/v3/pkg/types"
+	"go.etcd.io/etcd/v3/raft"
+	"go.etcd.io/etcd/v3/raft/raftpb"
+	"go.etcd.io/etcd/v3/snap"
 
 	"golang.org/x/time/rate"
 )

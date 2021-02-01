@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/adodon2go/etcd/integration"
-	"github.com/adodon2go/etcd/pkg/testutil"
+	"go.etcd.io/etcd/v3/integration"
+	"go.etcd.io/etcd/v3/pkg/testutil"
 )
 
 var endpoints []string

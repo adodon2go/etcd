@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"sync"
 
-	v3 "github.com/adodon2go/etcd/clientv3"
-	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
+	v3 "go.etcd.io/etcd/v3/clientv3"
+	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
 )
 
 // Mutex implements the sync Locker interface with etcd

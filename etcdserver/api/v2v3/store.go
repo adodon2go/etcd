@@ -21,11 +21,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/adodon2go/etcd/clientv3"
-	"github.com/adodon2go/etcd/clientv3/concurrency"
-	etcdErr "github.com/adodon2go/etcd/error"
-	"github.com/adodon2go/etcd/mvcc/mvccpb"
-	"github.com/adodon2go/etcd/store"
+	"go.etcd.io/etcd/v3/clientv3"
+	"go.etcd.io/etcd/v3/clientv3/concurrency"
+	etcdErr "go.etcd.io/etcd/v3/error"
+	"go.etcd.io/etcd/v3/mvcc/mvccpb"
+	"go.etcd.io/etcd/v3/store"
 )
 
 // store implements the Store interface for V2 using

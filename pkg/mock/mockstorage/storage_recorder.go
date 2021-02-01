@@ -15,9 +15,9 @@
 package mockstorage
 
 import (
-	"github.com/adodon2go/etcd/pkg/testutil"
-	"github.com/adodon2go/etcd/raft"
-	"github.com/adodon2go/etcd/raft/raftpb"
+	"go.etcd.io/etcd/v3/pkg/testutil"
+	"go.etcd.io/etcd/v3/raft"
+	"go.etcd.io/etcd/v3/raft/raftpb"
 )
 
 type storageRecorder struct {

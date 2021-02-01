@@ -26,7 +26,7 @@ import (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/adodon2go/etcd", "proxy/tcpproxy")
+	plog = capnslog.NewPackageLogger("go.etcd.io/etcd/v3", "proxy/tcpproxy")
 )
 
 type remote struct {

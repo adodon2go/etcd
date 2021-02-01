@@ -19,7 +19,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/adodon2go/etcd/pkg/fileutil"
+	"go.etcd.io/etcd/v3/pkg/fileutil"
 )
 
 // filePipeline pipelines allocating disk space

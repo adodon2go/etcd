@@ -19,9 +19,9 @@ import (
 	"encoding/json"
 	"path"
 
-	etcderr "github.com/adodon2go/etcd/error"
-	"github.com/adodon2go/etcd/etcdserver"
-	"github.com/adodon2go/etcd/etcdserver/etcdserverpb"
+	etcderr "go.etcd.io/etcd/v3/error"
+	"go.etcd.io/etcd/v3/etcdserver"
+	"go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
 )
 
 func (s *store) ensureAuthDirectories() error {

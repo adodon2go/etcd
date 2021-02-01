@@ -19,9 +19,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/adodon2go/etcd/integration"
-	"github.com/adodon2go/etcd/pkg/testutil"
-	"github.com/adodon2go/etcd/pkg/types"
+	"go.etcd.io/etcd/v3/integration"
+	"go.etcd.io/etcd/v3/pkg/testutil"
+	"go.etcd.io/etcd/v3/pkg/types"
 )
 
 func TestMemberList(t *testing.T) {

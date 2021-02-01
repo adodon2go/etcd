@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/adodon2go/etcd/clientv3/balancer"
-	"github.com/adodon2go/etcd/clientv3/balancer/picker"
-	"github.com/adodon2go/etcd/clientv3/balancer/resolver/endpoint"
-	"github.com/adodon2go/etcd/clientv3/credentials"
-	"github.com/adodon2go/etcd/etcdserver/api/v3rpc/rpctypes"
-	"github.com/adodon2go/etcd/pkg/logutil"
+	"go.etcd.io/etcd/v3/clientv3/balancer"
+	"go.etcd.io/etcd/v3/clientv3/balancer/picker"
+	"go.etcd.io/etcd/v3/clientv3/balancer/resolver/endpoint"
+	"go.etcd.io/etcd/v3/clientv3/credentials"
+	"go.etcd.io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
+	"go.etcd.io/etcd/v3/pkg/logutil"
 	"github.com/coreos/pkg/capnslog"
 	"github.com/google/uuid"
 	"go.uber.org/zap"
@@ -49,7 +49,7 @@ var (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/adodon2go/etcd", "clientv3")
+	plog = capnslog.NewPackageLogger("go.etcd.io/etcd/v3", "clientv3")
 )
 
 func init() {

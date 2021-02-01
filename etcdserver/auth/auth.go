@@ -26,10 +26,10 @@ import (
 	"strings"
 	"time"
 
-	etcderr "github.com/adodon2go/etcd/error"
-	"github.com/adodon2go/etcd/etcdserver"
-	"github.com/adodon2go/etcd/etcdserver/etcdserverpb"
-	"github.com/adodon2go/etcd/pkg/types"
+	etcderr "go.etcd.io/etcd/v3/error"
+	"go.etcd.io/etcd/v3/etcdserver"
+	"go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	"go.etcd.io/etcd/v3/pkg/types"
 	"github.com/coreos/pkg/capnslog"
 
 	"golang.org/x/crypto/bcrypt"
@@ -47,7 +47,7 @@ const (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/adodon2go/etcd", "etcdserver/auth")
+	plog = capnslog.NewPackageLogger("go.etcd.io/etcd/v3", "etcdserver/auth")
 )
 
 var rootRole = Role{

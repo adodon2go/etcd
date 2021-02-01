@@ -18,10 +18,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/adodon2go/etcd/etcdserver"
-	"github.com/adodon2go/etcd/etcdserver/api"
-	"github.com/adodon2go/etcd/lease/leasehttp"
-	"github.com/adodon2go/etcd/rafthttp"
+	"go.etcd.io/etcd/v3/etcdserver"
+	"go.etcd.io/etcd/v3/etcdserver/api"
+	"go.etcd.io/etcd/v3/lease/leasehttp"
+	"go.etcd.io/etcd/v3/rafthttp"
 )
 
 const (

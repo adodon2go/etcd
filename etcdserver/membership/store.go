@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/adodon2go/etcd/mvcc/backend"
-	"github.com/adodon2go/etcd/pkg/types"
-	"github.com/adodon2go/etcd/store"
+	"go.etcd.io/etcd/v3/mvcc/backend"
+	"go.etcd.io/etcd/v3/pkg/types"
+	"go.etcd.io/etcd/v3/store"
 
 	"github.com/coreos/go-semver/semver"
 )

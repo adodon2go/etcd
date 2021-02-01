@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/adodon2go/etcd/clientv3/balancer/connectivity"
-	"github.com/adodon2go/etcd/clientv3/balancer/picker"
+	"go.etcd.io/etcd/v3/clientv3/balancer/connectivity"
+	"go.etcd.io/etcd/v3/clientv3/balancer/picker"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc/balancer"

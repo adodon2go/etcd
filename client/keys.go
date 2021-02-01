@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/adodon2go/etcd/pkg/pathutil"
+	"go.etcd.io/etcd/v3/pkg/pathutil"
 )
 
 const (

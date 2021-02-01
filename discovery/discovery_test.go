@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/adodon2go/etcd/client"
+	"go.etcd.io/etcd/v3/client"
 
 	"github.com/jonboulle/clockwork"
 )

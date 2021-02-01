@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/adodon2go/etcd/clientv3"
-	"github.com/adodon2go/etcd/etcdserver/api/v3rpc/rpctypes"
-	"github.com/adodon2go/etcd/functional/rpcpb"
+	"go.etcd.io/etcd/v3/clientv3"
+	"go.etcd.io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
+	"go.etcd.io/etcd/v3/functional/rpcpb"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

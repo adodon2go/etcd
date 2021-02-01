@@ -17,9 +17,9 @@ package command
 import (
 	"fmt"
 
-	v3 "github.com/adodon2go/etcd/clientv3"
-	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
-	spb "github.com/adodon2go/etcd/mvcc/mvccpb"
+	v3 "go.etcd.io/etcd/v3/clientv3"
+	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	spb "go.etcd.io/etcd/v3/mvcc/mvccpb"
 )
 
 type fieldsPrinter struct{ printer }

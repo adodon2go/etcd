@@ -20,9 +20,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/adodon2go/etcd/etcdserver/api"
-	"github.com/adodon2go/etcd/etcdserver/api/v2http/httptypes"
-	"github.com/adodon2go/etcd/etcdserver/auth"
+	"go.etcd.io/etcd/v3/etcdserver/api"
+	"go.etcd.io/etcd/v3/etcdserver/api/v2http/httptypes"
+	"go.etcd.io/etcd/v3/etcdserver/auth"
 )
 
 type authHandler struct {

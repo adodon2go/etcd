@@ -24,12 +24,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/adodon2go/etcd/etcdserver/api/v3rpc/rpctypes"
-	"github.com/adodon2go/etcd/integration"
-	"github.com/adodon2go/etcd/lease"
-	"github.com/adodon2go/etcd/mvcc"
-	"github.com/adodon2go/etcd/mvcc/backend"
-	"github.com/adodon2go/etcd/pkg/testutil"
+	"go.etcd.io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
+	"go.etcd.io/etcd/v3/integration"
+	"go.etcd.io/etcd/v3/lease"
+	"go.etcd.io/etcd/v3/mvcc"
+	"go.etcd.io/etcd/v3/mvcc/backend"
+	"go.etcd.io/etcd/v3/pkg/testutil"
 )
 
 func TestMaintenanceHashKV(t *testing.T) {

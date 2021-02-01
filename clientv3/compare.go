@@ -15,7 +15,7 @@
 package clientv3
 
 import (
-	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
+	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
 )
 
 type CompareTarget int

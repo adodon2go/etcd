@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/adodon2go/etcd/pkg/logutil"
+	"go.etcd.io/etcd/v3/pkg/logutil"
 
 	"github.com/coreos/pkg/capnslog"
 )
@@ -29,9 +29,9 @@ func TestPackageLogger(t *testing.T) {
 	buf := new(bytes.Buffer)
 	capnslog.SetFormatter(capnslog.NewDefaultFormatter(buf))
 
-	l := logutil.NewPackageLogger("github.com/adodon2go/etcd", "logger")
+	l := logutil.NewPackageLogger("go.etcd.io/etcd/v3", "logger")
 
-	r := capnslog.MustRepoLogger("github.com/adodon2go/etcd")
+	r := capnslog.MustRepoLogger("go.etcd.io/etcd/v3")
 	r.SetLogLevel(map[string]capnslog.LogLevel{"logger": capnslog.INFO})
 
 	l.Infof("hello world!")

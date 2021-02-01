@@ -10,8 +10,8 @@ import (
 	math "math"
 	math_bits "math/bits"
 
-	etcdserverpb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
-	mvccpb "github.com/adodon2go/etcd/mvcc/mvccpb"
+	etcdserverpb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	mvccpb "go.etcd.io/etcd/v3/mvcc/mvccpb"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/golang/protobuf/proto"
 	_ "google.golang.org/genproto/googleapis/api/annotations"

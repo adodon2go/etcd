@@ -20,10 +20,10 @@ import (
 
 	"net/http"
 
-	etcdErr "github.com/adodon2go/etcd/error"
-	"github.com/adodon2go/etcd/etcdserver"
-	"github.com/adodon2go/etcd/etcdserver/api/v2http/httptypes"
-	"github.com/adodon2go/etcd/etcdserver/etcdserverpb"
+	etcdErr "go.etcd.io/etcd/v3/error"
+	"go.etcd.io/etcd/v3/etcdserver"
+	"go.etcd.io/etcd/v3/etcdserver/api/v2http/httptypes"
+	"go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

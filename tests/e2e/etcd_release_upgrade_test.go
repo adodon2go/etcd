@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/adodon2go/etcd/pkg/fileutil"
-	"github.com/adodon2go/etcd/pkg/testutil"
-	"github.com/adodon2go/etcd/version"
+	"go.etcd.io/etcd/v3/pkg/fileutil"
+	"go.etcd.io/etcd/v3/pkg/testutil"
+	"go.etcd.io/etcd/v3/version"
 )
 
 // TestReleaseUpgrade ensures that changes to master branch does not affect

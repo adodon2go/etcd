@@ -29,8 +29,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/adodon2go/etcd/pkg/testutil"
-	"github.com/adodon2go/etcd/version"
+	"go.etcd.io/etcd/v3/pkg/testutil"
+	"go.etcd.io/etcd/v3/version"
 )
 
 type actionAssertingHTTPClient struct {

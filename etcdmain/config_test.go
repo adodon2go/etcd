@@ -23,7 +23,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/adodon2go/etcd/embed"
+	"go.etcd.io/etcd/v3/embed"
 	"sigs.k8s.io/yaml"
 )
 

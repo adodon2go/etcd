@@ -20,9 +20,9 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/adodon2go/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
-	"github.com/adodon2go/etcd/pkg/adt"
+	"go.etcd.io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
+	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	"go.etcd.io/etcd/v3/pkg/adt"
 	"github.com/golang/groupcache/lru"
 )
 

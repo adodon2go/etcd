@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/adodon2go/etcd/pkg/transport"
+	"go.etcd.io/etcd/v3/pkg/transport"
 
 	"sigs.k8s.io/yaml"
 )

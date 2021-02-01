@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/adodon2go/etcd/auth"
-	"github.com/adodon2go/etcd/integration"
-	"github.com/adodon2go/etcd/pkg/testutil"
+	"go.etcd.io/etcd/v3/auth"
+	"go.etcd.io/etcd/v3/integration"
+	"go.etcd.io/etcd/v3/pkg/testutil"
 	"golang.org/x/crypto/bcrypt"
 )
 

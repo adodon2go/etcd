@@ -20,13 +20,13 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/adodon2go/etcd/auth"
-	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
-	"github.com/adodon2go/etcd/etcdserver/membership"
-	"github.com/adodon2go/etcd/lease"
-	"github.com/adodon2go/etcd/lease/leasehttp"
-	"github.com/adodon2go/etcd/mvcc"
-	"github.com/adodon2go/etcd/raft"
+	"go.etcd.io/etcd/v3/auth"
+	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	"go.etcd.io/etcd/v3/etcdserver/membership"
+	"go.etcd.io/etcd/v3/lease"
+	"go.etcd.io/etcd/v3/lease/leasehttp"
+	"go.etcd.io/etcd/v3/mvcc"
+	"go.etcd.io/etcd/v3/raft"
 
 	"github.com/gogo/protobuf/proto"
 )

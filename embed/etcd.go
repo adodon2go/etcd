@@ -27,28 +27,28 @@ import (
 	"sync"
 	"time"
 
-	"github.com/adodon2go/etcd/compactor"
-	"github.com/adodon2go/etcd/etcdserver"
-	"github.com/adodon2go/etcd/etcdserver/api/etcdhttp"
-	"github.com/adodon2go/etcd/etcdserver/api/v2http"
-	"github.com/adodon2go/etcd/etcdserver/api/v2v3"
-	"github.com/adodon2go/etcd/etcdserver/api/v3client"
-	"github.com/adodon2go/etcd/etcdserver/api/v3rpc"
-	"github.com/adodon2go/etcd/pkg/cors"
-	"github.com/adodon2go/etcd/pkg/debugutil"
-	runtimeutil "github.com/adodon2go/etcd/pkg/runtime"
-	"github.com/adodon2go/etcd/pkg/transport"
-	"github.com/adodon2go/etcd/pkg/types"
-	"github.com/adodon2go/etcd/rafthttp"
+	"go.etcd.io/etcd/v3/compactor"
+	"go.etcd.io/etcd/v3/etcdserver"
+	"go.etcd.io/etcd/v3/etcdserver/api/etcdhttp"
+	"go.etcd.io/etcd/v3/etcdserver/api/v2http"
+	"go.etcd.io/etcd/v3/etcdserver/api/v2v3"
+	"go.etcd.io/etcd/v3/etcdserver/api/v3client"
+	"go.etcd.io/etcd/v3/etcdserver/api/v3rpc"
+	"go.etcd.io/etcd/v3/pkg/cors"
+	"go.etcd.io/etcd/v3/pkg/debugutil"
+	runtimeutil "go.etcd.io/etcd/v3/pkg/runtime"
+	"go.etcd.io/etcd/v3/pkg/transport"
+	"go.etcd.io/etcd/v3/pkg/types"
+	"go.etcd.io/etcd/v3/rafthttp"
 
 	"github.com/coreos/pkg/capnslog"
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
-	"github.com/adodon2go/cmux"
+	"github.com/soheilhy/cmux"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"
 )
 
-var plog = capnslog.NewPackageLogger("github.com/adodon2go/etcd", "embed")
+var plog = capnslog.NewPackageLogger("go.etcd.io/etcd/v3", "embed")
 
 const (
 	// internal fd usage includes disk usage and transport usage.
@@ -273,7 +273,7 @@ func stopServers(ctx context.Context, ss *servers) {
 
 	// do not grpc.Server.GracefulStop with TLS enabled etcd server
 	// See https://github.com/grpc/grpc-go/issues/1384#issuecomment-317124531
-	// and https://github.com/adodon2go/etcd/issues/8916
+	// and https://go.etcd.io/etcd/v3/issues/8916
 	if ss.secure {
 		shutdownNow()
 		return

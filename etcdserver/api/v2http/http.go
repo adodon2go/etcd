@@ -20,10 +20,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/adodon2go/etcd/etcdserver/api/etcdhttp"
-	"github.com/adodon2go/etcd/etcdserver/api/v2http/httptypes"
-	"github.com/adodon2go/etcd/etcdserver/auth"
-	"github.com/adodon2go/etcd/pkg/logutil"
+	"go.etcd.io/etcd/v3/etcdserver/api/etcdhttp"
+	"go.etcd.io/etcd/v3/etcdserver/api/v2http/httptypes"
+	"go.etcd.io/etcd/v3/etcdserver/auth"
+	"go.etcd.io/etcd/v3/pkg/logutil"
 
 	"github.com/coreos/pkg/capnslog"
 )
@@ -34,7 +34,7 @@ const (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/adodon2go/etcd", "etcdserver/api/v2http")
+	plog = capnslog.NewPackageLogger("go.etcd.io/etcd/v3", "etcdserver/api/v2http")
 	mlog = logutil.NewMergeLogger(plog)
 )
 

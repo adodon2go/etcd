@@ -18,7 +18,7 @@ import (
 	"flag"
 	"strings"
 
-	"github.com/adodon2go/etcd/raft/raftpb"
+	"go.etcd.io/etcd/v3/raft/raftpb"
 )
 
 func main() {

@@ -21,11 +21,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/adodon2go/etcd/pkg/mock/mockstore"
-	"github.com/adodon2go/etcd/pkg/testutil"
-	"github.com/adodon2go/etcd/pkg/types"
-	"github.com/adodon2go/etcd/raft/raftpb"
-	"github.com/adodon2go/etcd/store"
+	"go.etcd.io/etcd/v3/pkg/mock/mockstore"
+	"go.etcd.io/etcd/v3/pkg/testutil"
+	"go.etcd.io/etcd/v3/pkg/types"
+	"go.etcd.io/etcd/v3/raft/raftpb"
+	"go.etcd.io/etcd/v3/store"
 )
 
 func TestClusterMember(t *testing.T) {

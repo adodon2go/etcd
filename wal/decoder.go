@@ -21,10 +21,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/adodon2go/etcd/pkg/crc"
-	"github.com/adodon2go/etcd/pkg/pbutil"
-	"github.com/adodon2go/etcd/raft/raftpb"
-	"github.com/adodon2go/etcd/wal/walpb"
+	"go.etcd.io/etcd/v3/pkg/crc"
+	"go.etcd.io/etcd/v3/pkg/pbutil"
+	"go.etcd.io/etcd/v3/raft/raftpb"
+	"go.etcd.io/etcd/v3/wal/walpb"
 )
 
 const minSectorSize = 512

@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/adodon2go/etcd/lease/leasepb"
-	"github.com/adodon2go/etcd/mvcc/backend"
+	"go.etcd.io/etcd/v3/lease/leasepb"
+	"go.etcd.io/etcd/v3/mvcc/backend"
 )
 
 // NoLease is a special LeaseID representing the absence of a lease.

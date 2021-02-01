@@ -30,8 +30,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/adodon2go/etcd/etcdserver/api"
-	"github.com/adodon2go/etcd/etcdserver/auth"
+	"go.etcd.io/etcd/v3/etcdserver/api"
+	"go.etcd.io/etcd/v3/etcdserver/auth"
 )
 
 const goodPassword = "good"

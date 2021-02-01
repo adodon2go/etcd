@@ -21,7 +21,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	etcdErr "github.com/adodon2go/etcd/error"
+	etcdErr "go.etcd.io/etcd/v3/error"
 )
 
 // A watcherHub contains all subscribed watchers

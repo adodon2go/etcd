@@ -15,8 +15,8 @@
 package rafthttp
 
 import (
-	"github.com/adodon2go/etcd/pkg/types"
-	"github.com/adodon2go/etcd/raft/raftpb"
+	"go.etcd.io/etcd/v3/pkg/types"
+	"go.etcd.io/etcd/v3/raft/raftpb"
 )
 
 type remote struct {

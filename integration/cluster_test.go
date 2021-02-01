@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/adodon2go/etcd/client"
-	"github.com/adodon2go/etcd/etcdserver"
-	"github.com/adodon2go/etcd/pkg/testutil"
+	"go.etcd.io/etcd/v3/client"
+	"go.etcd.io/etcd/v3/etcdserver"
+	"go.etcd.io/etcd/v3/pkg/testutil"
 
 	"github.com/coreos/pkg/capnslog"
 )
@@ -452,7 +452,7 @@ func TestRejectUnhealthyRemove(t *testing.T) {
 
 // TestRestartRemoved ensures that restarting removed member must exit
 // if 'initial-cluster-state' is set 'new' and old data directory still exists
-// (see https://github.com/adodon2go/etcd/issues/7512 for more).
+// (see https://go.etcd.io/etcd/v3/issues/7512 for more).
 func TestRestartRemoved(t *testing.T) {
 	defer testutil.AfterTest(t)
 

@@ -17,7 +17,7 @@ package ordering
 import (
 	"io/ioutil"
 
-	"github.com/adodon2go/etcd/clientv3"
+	"go.etcd.io/etcd/v3/clientv3"
 
 	"github.com/coreos/pkg/capnslog"
 	"google.golang.org/grpc/grpclog"

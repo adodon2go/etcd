@@ -17,9 +17,9 @@ package grpcproxy
 import (
 	"context"
 
-	"github.com/adodon2go/etcd/clientv3"
-	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
-	"github.com/adodon2go/etcd/proxy/grpcproxy/cache"
+	"go.etcd.io/etcd/v3/clientv3"
+	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	"go.etcd.io/etcd/v3/proxy/grpcproxy/cache"
 )
 
 type kvProxy struct {

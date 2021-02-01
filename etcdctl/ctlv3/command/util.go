@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"regexp"
 
-	pb "github.com/adodon2go/etcd/mvcc/mvccpb"
+	pb "go.etcd.io/etcd/v3/mvcc/mvccpb"
 
 	"github.com/spf13/cobra"
 )

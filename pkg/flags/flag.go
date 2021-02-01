@@ -27,7 +27,7 @@ import (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/adodon2go/etcd", "pkg/flags")
+	plog = capnslog.NewPackageLogger("go.etcd.io/etcd/v3", "pkg/flags")
 )
 
 // DeprecatedFlag encapsulates a flag that may have been previously valid but

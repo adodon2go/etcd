@@ -20,8 +20,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/adodon2go/etcd/etcdctl/ctlv2/command"
-	"github.com/adodon2go/etcd/version"
+	"go.etcd.io/etcd/v3/etcdctl/ctlv2/command"
+	"go.etcd.io/etcd/v3/version"
 	"github.com/urfave/cli"
 )
 

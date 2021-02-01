@@ -25,10 +25,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/adodon2go/etcd/embed"
-	"github.com/adodon2go/etcd/pkg/flags"
-	"github.com/adodon2go/etcd/pkg/types"
-	"github.com/adodon2go/etcd/version"
+	"go.etcd.io/etcd/v3/embed"
+	"go.etcd.io/etcd/v3/pkg/flags"
+	"go.etcd.io/etcd/v3/pkg/types"
+	"go.etcd.io/etcd/v3/version"
 
 	"sigs.k8s.io/yaml"
 )

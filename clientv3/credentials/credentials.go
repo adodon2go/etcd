@@ -22,8 +22,8 @@ import (
 	"net"
 	"sync"
 
-	"github.com/adodon2go/etcd/clientv3/balancer/resolver/endpoint"
-	"github.com/adodon2go/etcd/etcdserver/api/v3rpc/rpctypes"
+	"go.etcd.io/etcd/v3/clientv3/balancer/resolver/endpoint"
+	"go.etcd.io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
 	grpccredentials "google.golang.org/grpc/credentials"
 )
 

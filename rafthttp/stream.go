@@ -27,12 +27,12 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"github.com/adodon2go/etcd/etcdserver/stats"
-	"github.com/adodon2go/etcd/pkg/httputil"
-	"github.com/adodon2go/etcd/pkg/transport"
-	"github.com/adodon2go/etcd/pkg/types"
-	"github.com/adodon2go/etcd/raft/raftpb"
-	"github.com/adodon2go/etcd/version"
+	"go.etcd.io/etcd/v3/etcdserver/stats"
+	"go.etcd.io/etcd/v3/pkg/httputil"
+	"go.etcd.io/etcd/v3/pkg/transport"
+	"go.etcd.io/etcd/v3/pkg/types"
+	"go.etcd.io/etcd/v3/raft/raftpb"
+	"go.etcd.io/etcd/v3/version"
 	"github.com/coreos/go-semver/semver"
 )
 

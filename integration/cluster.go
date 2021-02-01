@@ -32,27 +32,27 @@ import (
 	"testing"
 	"time"
 
-	"github.com/adodon2go/etcd/client"
-	"github.com/adodon2go/etcd/clientv3"
-	"github.com/adodon2go/etcd/embed"
-	"github.com/adodon2go/etcd/etcdserver"
-	"github.com/adodon2go/etcd/etcdserver/api/etcdhttp"
-	"github.com/adodon2go/etcd/etcdserver/api/v2http"
-	"github.com/adodon2go/etcd/etcdserver/api/v3client"
-	"github.com/adodon2go/etcd/etcdserver/api/v3election"
-	epb "github.com/adodon2go/etcd/etcdserver/api/v3election/v3electionpb"
-	"github.com/adodon2go/etcd/etcdserver/api/v3lock"
-	lockpb "github.com/adodon2go/etcd/etcdserver/api/v3lock/v3lockpb"
-	"github.com/adodon2go/etcd/etcdserver/api/v3rpc"
-	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
-	"github.com/adodon2go/etcd/pkg/testutil"
-	"github.com/adodon2go/etcd/pkg/tlsutil"
-	"github.com/adodon2go/etcd/pkg/transport"
-	"github.com/adodon2go/etcd/pkg/types"
-	"github.com/adodon2go/etcd/rafthttp"
+	"go.etcd.io/etcd/v3/client"
+	"go.etcd.io/etcd/v3/clientv3"
+	"go.etcd.io/etcd/v3/embed"
+	"go.etcd.io/etcd/v3/etcdserver"
+	"go.etcd.io/etcd/v3/etcdserver/api/etcdhttp"
+	"go.etcd.io/etcd/v3/etcdserver/api/v2http"
+	"go.etcd.io/etcd/v3/etcdserver/api/v3client"
+	"go.etcd.io/etcd/v3/etcdserver/api/v3election"
+	epb "go.etcd.io/etcd/v3/etcdserver/api/v3election/v3electionpb"
+	"go.etcd.io/etcd/v3/etcdserver/api/v3lock"
+	lockpb "go.etcd.io/etcd/v3/etcdserver/api/v3lock/v3lockpb"
+	"go.etcd.io/etcd/v3/etcdserver/api/v3rpc"
+	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	"go.etcd.io/etcd/v3/pkg/testutil"
+	"go.etcd.io/etcd/v3/pkg/tlsutil"
+	"go.etcd.io/etcd/v3/pkg/transport"
+	"go.etcd.io/etcd/v3/pkg/types"
+	"go.etcd.io/etcd/v3/rafthttp"
 
 	"github.com/coreos/pkg/capnslog"
-	"github.com/adodon2go/cmux"
+	"github.com/soheilhy/cmux"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/grpclog"
 	"google.golang.org/grpc/keepalive"
@@ -91,7 +91,7 @@ var (
 		ClientCertAuth: true,
 	}
 
-	plog = capnslog.NewPackageLogger("github.com/adodon2go/etcd", "integration")
+	plog = capnslog.NewPackageLogger("go.etcd.io/etcd/v3", "integration")
 )
 
 type ClusterConfig struct {

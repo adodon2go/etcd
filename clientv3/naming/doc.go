@@ -17,8 +17,8 @@
 // To use, first import the packages:
 //
 //	import (
-//		"github.com/adodon2go/etcd/clientv3"
-//		etcdnaming "github.com/adodon2go/etcd/clientv3/naming"
+//		"go.etcd.io/etcd/v3/clientv3"
+//		etcdnaming "go.etcd.io/etcd/v3/clientv3/naming"
 //
 //		"google.golang.org/grpc"
 //		"google.golang.org/grpc/naming"

@@ -10,8 +10,8 @@ import (
 	math "math"
 	math_bits "math/bits"
 
-	authpb "github.com/adodon2go/etcd/auth/authpb"
-	mvccpb "github.com/adodon2go/etcd/mvcc/mvccpb"
+	authpb "go.etcd.io/etcd/v3/auth/authpb"
+	mvccpb "go.etcd.io/etcd/v3/mvcc/mvccpb"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/golang/protobuf/proto"
 	_ "google.golang.org/genproto/googleapis/api/annotations"

@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/adodon2go/etcd/pkg/fileutil"
+	"go.etcd.io/etcd/v3/pkg/fileutil"
 )
 
 var (

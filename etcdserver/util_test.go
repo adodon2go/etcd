@@ -19,11 +19,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/adodon2go/etcd/etcdserver/membership"
-	"github.com/adodon2go/etcd/pkg/types"
-	"github.com/adodon2go/etcd/raft/raftpb"
-	"github.com/adodon2go/etcd/rafthttp"
-	"github.com/adodon2go/etcd/snap"
+	"go.etcd.io/etcd/v3/etcdserver/membership"
+	"go.etcd.io/etcd/v3/pkg/types"
+	"go.etcd.io/etcd/v3/raft/raftpb"
+	"go.etcd.io/etcd/v3/rafthttp"
+	"go.etcd.io/etcd/v3/snap"
 )
 
 func TestLongestConnected(t *testing.T) {

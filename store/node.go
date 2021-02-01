@@ -19,7 +19,7 @@ import (
 	"sort"
 	"time"
 
-	etcdErr "github.com/adodon2go/etcd/error"
+	etcdErr "go.etcd.io/etcd/v3/error"
 	"github.com/jonboulle/clockwork"
 )
 

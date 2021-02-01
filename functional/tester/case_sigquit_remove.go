@@ -21,8 +21,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/adodon2go/etcd/clientv3"
-	"github.com/adodon2go/etcd/functional/rpcpb"
+	"go.etcd.io/etcd/v3/clientv3"
+	"go.etcd.io/etcd/v3/functional/rpcpb"
 
 	"go.uber.org/zap"
 )

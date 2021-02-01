@@ -24,12 +24,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/adodon2go/etcd/pkg/types"
+	"go.etcd.io/etcd/v3/pkg/types"
 	"github.com/coreos/pkg/capnslog"
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/adodon2go/etcd", "pkg/netutil")
+	plog = capnslog.NewPackageLogger("go.etcd.io/etcd/v3", "pkg/netutil")
 
 	// indirection for testing
 	resolveTCPAddr = resolveTCPAddrDefault

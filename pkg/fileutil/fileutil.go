@@ -32,7 +32,7 @@ const (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/adodon2go/etcd", "pkg/fileutil")
+	plog = capnslog.NewPackageLogger("go.etcd.io/etcd/v3", "pkg/fileutil")
 )
 
 // IsDirWriteable checks if dir is writable by writing and removing a file

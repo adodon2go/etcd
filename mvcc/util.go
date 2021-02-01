@@ -17,8 +17,8 @@ package mvcc
 import (
 	"encoding/binary"
 
-	"github.com/adodon2go/etcd/mvcc/backend"
-	"github.com/adodon2go/etcd/mvcc/mvccpb"
+	"go.etcd.io/etcd/v3/mvcc/backend"
+	"go.etcd.io/etcd/v3/mvcc/mvccpb"
 )
 
 func UpdateConsistentIndex(be backend.Backend, index uint64) {

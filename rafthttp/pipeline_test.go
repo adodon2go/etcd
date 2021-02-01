@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/adodon2go/etcd/etcdserver/stats"
-	"github.com/adodon2go/etcd/pkg/testutil"
-	"github.com/adodon2go/etcd/pkg/types"
-	"github.com/adodon2go/etcd/raft/raftpb"
-	"github.com/adodon2go/etcd/version"
+	"go.etcd.io/etcd/v3/etcdserver/stats"
+	"go.etcd.io/etcd/v3/pkg/testutil"
+	"go.etcd.io/etcd/v3/pkg/types"
+	"go.etcd.io/etcd/v3/raft/raftpb"
+	"go.etcd.io/etcd/v3/version"
 )
 
 // TestPipelineSend tests that pipeline could send data using roundtripper

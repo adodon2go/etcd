@@ -19,10 +19,10 @@ package integration
 import (
 	"sync"
 
-	"github.com/adodon2go/etcd/clientv3"
-	"github.com/adodon2go/etcd/clientv3/namespace"
-	"github.com/adodon2go/etcd/proxy/grpcproxy"
-	"github.com/adodon2go/etcd/proxy/grpcproxy/adapter"
+	"go.etcd.io/etcd/v3/clientv3"
+	"go.etcd.io/etcd/v3/clientv3/namespace"
+	"go.etcd.io/etcd/v3/proxy/grpcproxy"
+	"go.etcd.io/etcd/v3/proxy/grpcproxy/adapter"
 )
 
 var (

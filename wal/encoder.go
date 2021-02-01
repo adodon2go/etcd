@@ -21,9 +21,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/adodon2go/etcd/pkg/crc"
-	"github.com/adodon2go/etcd/pkg/ioutil"
-	"github.com/adodon2go/etcd/wal/walpb"
+	"go.etcd.io/etcd/v3/pkg/crc"
+	"go.etcd.io/etcd/v3/pkg/ioutil"
+	"go.etcd.io/etcd/v3/wal/walpb"
 )
 
 // walPageBytes is the alignment for flushing records to the backing Writer.

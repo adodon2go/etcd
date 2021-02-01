@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/adodon2go/etcd/functional/rpcpb"
+	"go.etcd.io/etcd/v3/functional/rpcpb"
 
 	"go.uber.org/zap"
 )

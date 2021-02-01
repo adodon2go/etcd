@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/adodon2go/etcd/pkg/srv"
-	"github.com/adodon2go/etcd/pkg/transport"
+	"go.etcd.io/etcd/v3/pkg/srv"
+	"go.etcd.io/etcd/v3/pkg/transport"
 )
 
 func discoverEndpoints(dns string, ca string, insecure bool) (s srv.SRVClients) {

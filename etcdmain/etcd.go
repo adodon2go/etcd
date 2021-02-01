@@ -26,18 +26,18 @@ import (
 	"strings"
 	"time"
 
-	"github.com/adodon2go/etcd/discovery"
-	"github.com/adodon2go/etcd/embed"
-	"github.com/adodon2go/etcd/etcdserver"
-	"github.com/adodon2go/etcd/etcdserver/api/etcdhttp"
-	"github.com/adodon2go/etcd/pkg/cors"
-	"github.com/adodon2go/etcd/pkg/fileutil"
-	pkgioutil "github.com/adodon2go/etcd/pkg/ioutil"
-	"github.com/adodon2go/etcd/pkg/osutil"
-	"github.com/adodon2go/etcd/pkg/transport"
-	"github.com/adodon2go/etcd/pkg/types"
-	"github.com/adodon2go/etcd/proxy/httpproxy"
-	"github.com/adodon2go/etcd/version"
+	"go.etcd.io/etcd/v3/discovery"
+	"go.etcd.io/etcd/v3/embed"
+	"go.etcd.io/etcd/v3/etcdserver"
+	"go.etcd.io/etcd/v3/etcdserver/api/etcdhttp"
+	"go.etcd.io/etcd/v3/pkg/cors"
+	"go.etcd.io/etcd/v3/pkg/fileutil"
+	pkgioutil "go.etcd.io/etcd/v3/pkg/ioutil"
+	"go.etcd.io/etcd/v3/pkg/osutil"
+	"go.etcd.io/etcd/v3/pkg/transport"
+	"go.etcd.io/etcd/v3/pkg/types"
+	"go.etcd.io/etcd/v3/proxy/httpproxy"
+	"go.etcd.io/etcd/v3/version"
 
 	"github.com/coreos/pkg/capnslog"
 	"google.golang.org/grpc"
@@ -45,7 +45,7 @@ import (
 
 type dirType string
 
-var plog = capnslog.NewPackageLogger("github.com/adodon2go/etcd", "etcdmain")
+var plog = capnslog.NewPackageLogger("go.etcd.io/etcd/v3", "etcdmain")
 
 var (
 	dirMember = dirType("member")

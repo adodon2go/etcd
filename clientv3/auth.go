@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/adodon2go/etcd/auth/authpb"
-	pb "github.com/adodon2go/etcd/etcdserver/etcdserverpb"
+	"go.etcd.io/etcd/v3/auth/authpb"
+	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
 
 	"google.golang.org/grpc"
 )
